@@ -6,7 +6,10 @@ base_dir = os.path.dirname(__file__)
 file_path = os.path.join(base_dir, "JSON", "AiM-Phases-Last-3-Months.json")
 
 dataframe = pd.read_json(file_path)
+normalizeddf = pd.json_normalize(dataframe)
 print(dataframe.head())
+
+
 
 #flatten json file feilds
 #create and add to a database with all of the colums in the json file, with an 
