@@ -35,3 +35,6 @@ conn.close()
 
 #Summary column should pertain to the day and specific ticket right now
 #SQLite > os library > API
+
+#Next steps 10/8/25
+#Request library > API > Connect and create queries/data analysis for database
