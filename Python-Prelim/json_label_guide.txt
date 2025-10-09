@@ -1,0 +1,81 @@
+dto – Data transfer object type used by AiM for record handling.
+dtoState – Current state of the data transfer object.
+
+proposal – Unique work order or proposal identifier (e.g., 25-025202).
+billedEquipment – Total billed equipment costs.
+contact – Name of the requester or point of contact.
+encMaterial – Encumbered (reserved) material cost.
+actualMaterial – Actual cost of materials used.
+estTotal – Estimated total cost for the work order.
+actualLabor – Actual labor cost recorded.
+entClerk – Name of the clerk who entered the work order.
+budget – Budget amount assigned for the work order.
+unallocExpLabor – Unallocated labor expenses.
+editClerk – Name of the clerk who last edited the record.
+regionCode – Code representing the geographic region (e.g., COLUMBIA).
+totHrs – Total estimated or actual hours logged.
+unallocExpContract – Unallocated contract expenses.
+actualTotal – Actual total cost for the job.
+sortCode – Sort or sequence identifier for internal use.
+category – Work type category (e.g., CORRECTIVE, SERVICES, PREVENTIVE).
+entDate – Entered date; when the record was created in AiM.
+bldg – Building number or code where work occurred.
+encLabor – Encumbered (reserved) labor costs.
+contactMc – Email address of the requester or contact.
+enforceDistYn – Indicates if cost distribution rules were enforced (Y/N).
+facId – Facility identifier (e.g., MAIN CAMPUS).
+actEndDt – Actual end date and time of the work.
+multitenantId – Internal tenant tracking ID for multi-organization systems.
+orderType – Indicates if work was PLANNED or UNPLANNED.
+shop – Shop or department responsible for performing the work.
+unallocExpTotal – Total unallocated expenses.
+encContract – Encumbered contract costs.
+estContract – Estimated contract cost.
+actBegDt – Actual begin date and time of the work.
+actualContract – Actual contract cost.
+craftCode – Trade or craft performing the work (e.g., PLUMBING, ELECTRICAL).
+recordId – Unique internal record identifier.
+allocExpTotal – Total allocated expenses.
+description – Short description of the issue or service performed.
+custom001 – Custom classification field for internal reporting.
+encTotal – Total encumbered cost.
+editDate – Date when the record was last edited.
+actualEquipment – Actual cost of equipment used.
+estLabor – Estimated labor cost.
+allocExpMaterial – Allocated material expenses.
+deptO – Department code responsible for funding.
+statusCode – Current status of the work order (e.g., COMPLETED, CANCELED).
+unallocExpMaterial – Unallocated material expenses.
+unallocExpEquipment – Unallocated equipment expenses.
+estEquipment – Estimated equipment cost.
+billedContract – Billed contract costs.
+totMat – Total materials used or charged.
+locationCode – Location or room code where work occurred.
+estMaterial – Estimated material cost.
+billedTotal – Total amount billed for the work.
+defaultDist – Default distribution code for cost allocation.
+billedMaterial – Billed material costs.
+encEquipment – Encumbered equipment costs.
+estHours – Estimated work hours.
+begDt – Begin date; scheduled or requested start date/time.
+actualHours – Actual hours worked.
+longDesc – Extended description or additional service details.
+allocExpLabor – Allocated labor expenses.
+allocExpContract – Allocated contract expenses.
+contactPh – Contact phone number.
+allocExpEquipment – Allocated equipment expenses.
+readyRequest – Reference to the associated request number.
+billedLabor – Total billed labor cost.
+locId – Location identifier.
+ocO – Object code used for accounting or classification.
+companyO – Company or organization associated with the work (e.g., USC).
+deptId – Department identifier.
+totEqp – Total equipment used.
+companyId – Company identifier (usually same as companyO).
+priCode – Priority code (e.g., URGENT, PROMPT ATTN, ROUTINE).
+endDt – Planned end date or scheduled completion.
+problemCode – Code describing the problem type (e.g., SHOWER CLOG).
+totLab – Total labor recorded.
+totOth – Total other expenses.
+flrId – Floor identifier within the building.
+ocCode – Accounting or object code.

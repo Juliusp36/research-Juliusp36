@@ -38,3 +38,5 @@ conn.close()
 
 #Next steps 10/8/25
 #Request library > API > Connect and create queries/data analysis for database
+#Secure API key > query > frontend
+#When using secured API key, use "from dotenv import load_dotenv" and "load_dotenv()" under it
